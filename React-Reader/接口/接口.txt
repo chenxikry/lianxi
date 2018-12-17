@@ -1,0 +1,28 @@
+﻿接口：
+	1.搜索书籍列表
+		http://api.zhuishushenqi.com/book/fuzzy-search?query=${name}&start=0
+
+		fetch('/api/book/fuzzy-search?query=${name}&start=0')
+	2.书籍详细介绍
+		http://api.zhuishushenqi.com/book/584045b76db58db7597a8ee9
+	
+	3.自动补全列表
+		http://api.zhuishushenqi.com/book/auto-complete?query=从
+	
+	4.获取书源信息	
+		http://api.zhuishushenqi.com/toc?view=summary&book=584045b76db58db7597a8ee9
+		
+	5.章节列表
+		http://api.zhuishushenqi.com/toc/577b477dbd86a4bd3f8bf1b2?view=chapters
+	
+	6.详细阅读
+		http://chapter2.zhuishushenqi.com/chapter/${url}?k=2124b73d7e2e1945&t=1468223717
+		
+		fetch('/chapter/${url}')
+
+	7.首页接口
+		http://192.168.5.111:10000/home
+	   请求方式：GET
+           请求参数：无
+	
+

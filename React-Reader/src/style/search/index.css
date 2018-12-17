@@ -1,0 +1,17 @@
+.search_back{
+    color:#fff;
+    margin:0px 0px 0px .5rem;
+    font-size:20px;
+    font-weight: bold;
+    float: left;
+}
+.search_input .ant-input-suffix .ant-input-search-icon{
+    color: #b30000;
+    font-weight: bold;
+    
+}
+
+.search_content{
+    height: 100%;
+    overflow: auto;
+}

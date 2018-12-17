@@ -1,0 +1,23 @@
+/* 引入antd.css */
+@import '~antd/dist/antd.css';
+#root{
+    height: 100%;
+}
+
+.loading{
+    text-align: center;
+    background: rgba(0,0,0,0.2);
+    border-radius: 4px;
+    padding:15px 20px;
+    position:fixed;
+    left:5rem;
+    top:10rem; 
+    z-index: 99;
+}
+.loading .ant-spin{
+    color: rgb(198,47,47);
+    font-size: 1.1rem;
+}
+.loading .ant-spin-dot>i{
+    background-color: rgb(198,47,47);
+}

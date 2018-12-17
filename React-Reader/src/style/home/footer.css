@@ -1,0 +1,15 @@
+
+/* 底部样式 */
+div.home_footer{
+    padding: 0px;
+    margin: 0px;
+    border-top: 2px solid gray;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.home_footer_item{
+    text-align: center;
+    font-size: 18px;
+}

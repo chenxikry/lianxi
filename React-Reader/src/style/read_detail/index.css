@@ -1,0 +1,128 @@
+/* 章节弹窗样式 */
+.chapterList .ant-modal-footer,
+.chapterList .ant-modal-header,
+.chapterList .ant-modal-close{
+    display: none;
+  }
+
+.chapterList .ant-modal-body{
+    height: 60%;
+    overflow: scroll;
+  }
+
+.chapterList p{
+    border-bottom: 1px solid rgb(225,225,226);
+    font-size: 1.0rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 10px 0px;
+  }
+
+.chapterList .choosed{
+    color: red;
+  }
+/* 章节弹窗样式结束 */
+
+/* 头部样式 */
+div.read_detail_header{
+    background: rgb(25,25,25);
+    position: fixed;
+    width: 100%;
+    top: 0px;
+  }
+  .read_detail_origin{
+    font-size: 0.9rem;
+    color: white !important;
+    opacity: 0.6;
+    float: right;
+  }
+
+  .read_detail_pre{
+    font-size: 1.3rem;
+    color:white;
+    line-height: 64px;
+    height: inherit;
+    float: left;
+  }
+/* 头部样式结束 */
+
+/* 小说内容样式 */
+.read_detail_box{
+  padding: 15px;
+  font-size: .8rem;
+  min-height: 100%;
+  overflow-y: scroll;
+  height: 100%;
+  color: black;
+}
+.read_detail_box pre{
+  white-space: pre-wrap;
+  word-wrap: break-word;
+
+}
+.read_detail_control{
+  padding: 0px 3rem;
+  padding-bottom: 2rem;
+  cursor: pointer;
+  font-size: .9rem;
+}
+
+.read_detail_control span:first-child{
+  float: left;
+}
+.read_detail_control span:last-child{
+  float: right;
+}
+/* 小说主体样式结束 */
+
+/* 底部样式 */
+  div.read_detail_footer{
+    background: rgb(25,25,25);
+    padding:10px 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    display: flex;
+    color: white;
+    text-align: center;
+    justify-content: space-around;
+  }
+
+ .read_detail_footer i {
+    color: white;
+    font-size: 1rem;
+  }
+  .read_detail_setting{
+    outline: none;
+  }
+
+  .read_detail_setting > div{
+    width: 100%;
+    background-color: rgba(25, 25, 25, 0.8);
+    position: absolute;
+    left: 0px;
+    bottom: 2.6rem;
+    padding: 10px 20px;
+  }
+
+  .read_detail_setting > div > div{
+    text-align: left;
+    padding: 5px 0px;
+  }
+  .read_detail_setting > div  div  span{
+    margin-right: 20px;
+  }
+
+  .read_detail_font{
+    font-size: 1.2rem;
+  }
+  div.read_detail_color i{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin-right: 20px;
+  }
+
+ 

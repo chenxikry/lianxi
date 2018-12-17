@@ -1,0 +1,24 @@
+.searchHistory{
+    margin-top:0.5rem;
+    padding: 0 .5rem .5rem;
+}
+
+.searchHistoryHead{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--gray-lighter);
+}
+
+.leftHead, .rightHead{
+    font-size: .8rem;
+    color:var(--gray-light);
+    cursor:pointer;
+}
+div.search_tag{
+    border-radius: 16px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 16px;
+    padding: 0px 10px !important;
+    margin: 5px;
+}

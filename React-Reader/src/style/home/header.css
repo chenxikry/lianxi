@@ -1,0 +1,25 @@
+/* 主页头部样式 */
+.ant-layout .homeHeader{
+    background:  #b30000;
+    padding: 0px 10px;
+    text-align: center;
+}
+/* 主页头部标题 */
+.home_title{
+    color: aliceblue;
+    font-size:20px;
+    font-weight: bold;
+}
+/* 主页头部右侧触发器 */
+.home_dropdown_togger{
+    float: right;
+    width: 40px;
+    height: 40px;
+    margin-top: 12px;
+}
+/* 下拉菜单样式 */
+li.ant-dropdown-menu-item {
+    font-weight: bold;
+    font-size:18px;
+}
+/* 头部样式结束 */

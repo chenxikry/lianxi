@@ -1,0 +1,48 @@
+.search_item{
+    border-bottom: 1px solid rgb(225, 225, 226);
+    padding: 10px;
+    margin: 0px 5px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.search_item:hover{
+    background: rgb(225,225,226);
+}
+.search_card{
+    display: flex;
+    width:100%;
+}
+.search_card  img{
+    height: 4rem /* 80/20 */;
+    width: 3.8rem;
+  }
+.search_card  .card_right{
+    padding: .5rem;
+  }
+
+  .item_title{
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(89,89,89);
+    /* 溢出文字省略 */
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+ .item_content{
+    color:rgb(182,182,182);
+  }
+
+  .shortIntro{
+    /* white-space: nowrap; */
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 64px;
+    margin: 0px !important;
+  }
+  .shortIntroContent{
+    text-indent: 2em;
+    display: block;
+  }
